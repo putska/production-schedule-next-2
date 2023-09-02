@@ -1,0 +1,45 @@
+Current Date Color: #c2eafc
+MUI Background Color: #1976d2
+
+
+TO DO:
+
+Pretend you are a project manager giving an overview at the start of a weekly meeting discussing what was completed in tasks and how work has been going for the past week. You should mention who worked on what and which tasks are still in progress or pending for the next week.
+
+
+DATABASE UPDATES:
+
+/EmployeeNotes
+vacation
+workFromHome
+
+/Tasks  
+created
+
+/ShopDrawings
+ID
+jobNumber
+SD_sheets
+SD_metrics_notes
+shopID (NO LONGER USE GROUPKEY)
+
+/Purchasing
+ID (number)
+jobNumber (string)
+hiltiEmbeds (
+MAC
+metalBooking
+western
+certified (string)
+composite (string)
+review (string)
+glass (string)
+metal (string)
+panel (string)
+gasket (string)
+shopSealant (date
+boltTesting (string)
+orderHardware (date)
+doorPaint (string)
+3WeekUpdate (date)
+fieldUseReport3Updates (date)

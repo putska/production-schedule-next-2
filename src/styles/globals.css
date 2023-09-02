@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom[role='columnheader'] {
+  font-size: 17px;
+}
+
+.dx-datagrid .dx-scrollable-scrollbar.dx-scrollbar-vertical,
+.dx-datagrid .dx-scrollable-scrollbar.dx-scrollbar-vertical .dx-scrollable-scroll {
+  width: 15px;
+}
+
+.dx-datagrid .dx-scrollable-scrollbar {
+  background-color: rgba(191, 191, 191, 0.2);
+}
+
+.dx-datagrid .dx-scrollable-scrollbar.dx-scrollbar-horizontal,
+.dx-datagrid .dx-scrollable-scrollbar.dx-scrollbar-horizontal .dx-scrollable-scroll {
+  height: 15px;
+}
+
+.active {
+  color: white;
+  font-size: 1vw;
+  font-weight: bolder;
+  text-shadow: 1px 1px 5px black;
+  text-transform: uppercase;
+}
+
+.link {
+  font-size: 1vw;
+  text-decoration: none;
+  color: #1976d2;
+  padding: 10px;
+}
+
+.link:hover {
+  font-weight: bolder;
+  color: white;
+  background-color: #1976d2;
+}
+
+.highlighted {
+  background-color: yellow;
+}
+
+.blueColumn {
+  background-color: #1976d2;
+  /* material-ui blue */
+  color: white;
+}
+
+.shop-drawings-master-detail {
+  margin: 1em;
+  font-size: 1em;
+  font-weight: bolder;
+}
